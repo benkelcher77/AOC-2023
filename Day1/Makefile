@@ -1,2 +1,2 @@
 build: day1.ml
-	ocamlc -o day1 day1.ml
+	ocamlfind ocamlc -package re -linkpkg day1.ml -o day1
